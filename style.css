@@ -1,0 +1,96 @@
+body {
+  background-image: url("Background.jpeg");
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  max-width: 700px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+.dessert {
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border-color: brown;
+  height: 2px;
+  background-color: brown;
+}
+
+.bottom-line {
+  margin-top: 20px;
+}
+
+/* FOOTER*/
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
